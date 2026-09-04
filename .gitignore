@@ -1,0 +1,21 @@
+# Datasets — never commit raw data (license terms + size)
+data/raw/
+data/processed/
+data/derived_evidence/
+*.rar
+*.zip
+*.RData
+*.mat
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
